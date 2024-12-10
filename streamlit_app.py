@@ -48,4 +48,4 @@ if ingredients_list:
 #New section to import
 import requests
 smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/orange")
-st.text(smoothiefroot_response)
+st.text(smoothiefroot_response.json())
